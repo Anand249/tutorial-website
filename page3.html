@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Thrid Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- container to wrap everything -->
+    <div id="container">
+        <!-- Brand of website -->
+        <header>My Third Web Page</header>
+        <!-- Main Navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">About</a></li>
+                <li><a href=""></a>Gallery</a></li>
+                <li><a href="page3.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- End Navigation -->
+        <!-- Start Main Centent -->
+        <main>
+            <h1>My Third heading</h1>
+            <p>My Third paragraph</p>
+            <img src="images/central_park.jpg" alt="Cental Oark" width="500">
+            <form action="/signup" method="POST">
+                <fieldset>
+                    <legend>User personal information</legend><br>
+                    <label for="">Enter your full name</label><br>
+                    <input type="text" name="name"><br>
+                    <label for="">Enter your email</label><br>
+                    <input type="email" name="email"><br>
+                    <label for="">Enter your phone</label><br>
+                    <input type="tel" name="phone"><br><br>
+                    <label for="">Select your gender</label><br>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="femalw">Female<br><br>
+                    <label for="">How should we contact you?</label><br>
+                    <select>
+                        <option value="email">Email</option>
+                        <option value="tel">Phone</option>
+                    </select><br><br>
+                    <label>Tell us the reason of your visit today:</label><br>
+                    <textarea cols="30" rows="5"></textarea><br><br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="reset">
+                </fieldset>
+            </form>
+        </main>
+        <!-- End Main Content -->
+        <footer>&copy; Copyright 2021</footer>
+    </div>
+</body>
+
+</html>
